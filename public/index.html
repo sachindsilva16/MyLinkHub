@@ -1,23 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            fontFamily: {
-              appleEmoji: ["-apple-system", "BlinkMacSystemFont", "sans-serif"],
-            },
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation:{
+            fadeIn:"fadeIn 2s ease-in backwards"
           },
-        };
-      </script>
-    <title>Link-React App</title>
+          keyframes:{
+            fadeIn:{
+              "0%":{opacity:0},
+              "100%":{opacity:1}
+            }
+          },
+          variants:{
+            animation:["motion-safe"]
+          }
+
+      },
+      fontFamily: {
+        appleEmoji: ["-apple-system", "BlinkMacSystemFont", "sans-serif"],
+    },
+        }
+      }
+  </script>
+  <title>Link-React App</title>
 </head>
+
 <body class="font-appleEmoji bg-[#1a1a1a] text-white">
-    <div id="root"></div>
-    <script src="../src/index.js"></script>
+  <div id="root"></div>
+  <script src="../src/index.js"></script>
 </body>
+
 </html>
