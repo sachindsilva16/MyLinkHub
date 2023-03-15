@@ -10,7 +10,7 @@ function App() {
 
 
 
-                <div className="flex flex-col  items-center border h-[2000px] border-gray-500 rounded-md m-6 p-10">
+                <div className="flex flex-col  items-center border h-[2000px] border-gray-500 rounded-md m-6 p-10 md:w-96 md:mx-auto">
 
                     {/* MOODLE */}
                     <div className="flex items-center flex-col border-1 mb-12 mt-4 h-[300px] p-8 justify-center rounded-md shadow-md shadow-[#C0C0C0]">
