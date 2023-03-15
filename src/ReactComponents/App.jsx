@@ -15,8 +15,8 @@ function App() {
                     {/* MOODLE */}
                     <div className="flex items-center flex-col border-1 mb-12 mt-4 h-[300px] p-8 justify-center rounded-md shadow-md shadow-[#C0C0C0]">
                         <p className="mb-4 ml-4 mr-4 text-xl font-semibold text-[#C0C0C0]">NMAMIT Moodle</p>
-                        <a href="http://guru.nmamit.in" target="_blank">
-                            <button className=" bg-blue-200 w-[180px] h-10 rounded-md text-black bg-gradient-to-r from-blue-600 to-green-400 shadow-lg shadow-green-400/50 font-medium active:bg-black active:text-[#C0C0C0] active:cursor-pointer active:bg-gradient-to-r active:from-black active:to-black 
+                        <a href="http://guru.nmamit.in" className="">
+                            <button className="transition duration-50 ease-in-out active:translate-y-1 active:scale-110 bg-blue-200 w-[180px] h-10 rounded-md text-black bg-gradient-to-r from-blue-600 to-green-400 shadow-lg shadow-green-400/50 font-medium active:bg-black active:text-[#C0C0C0] active:cursor-pointer active:bg-gradient-to-r active:from-black active:to-black 
                             active:shadow-none hover:cursor-pointer
                             relative"><span className="relative top-[7px]">Click here</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="20px" height="20px" className="invert-gray-200 relative left-[150px]
@@ -64,7 +64,7 @@ function App() {
 
                 </div>
 
-
+        <button className="hover:transition hover:duration-150 hover:ease-in-out hover:translate-y-1 hover:scale-110 bg-blue-500 rounded-md p-2 w-24 h-10">Click Me</button>
 
             </div>
         </div>
