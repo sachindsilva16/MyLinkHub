@@ -141,13 +141,15 @@ function App() {
 
             </div>
             <footer className="bg-[#3C3C3C] h-[100px] p-4 text-center">
-                <div className="flex flex-row justify-center">
+                <div className="flex flex-col justify-center
+                items-center">
 
                     <a href="https://github.com/sachindsilva16" className="cursor-pointer pb-2">
                     <img className="h-[40px] w-[40px] rounded-full " src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" />
                     </a>
+                    <p className="block text-center">Made with <span className=" ">❤</span> by Sachin Dsilva</p>
                 </div>
-                    <p className="block">Made with <span className=" ">❤</span> by Sachin Dsilva</p>
+                    
             </footer>
         </div>
     );
