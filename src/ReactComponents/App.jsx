@@ -7,34 +7,42 @@ import ResourceGroup from "./Resource";
 import Footer from "./Footer";
 import NmamitWebsite from "./NmamitWebsite";
 import Button from "./Button";
+import WebLab from "./WebLab";
+// import ToggleButton from "./togglebutton";
 
 function App() {
+
+         
     return (
         <div>
-            <div className="container mt-[20px] flex flex-col mx-auto justify-center">
+            <div className="dark:bg-white container mt-[20px] flex flex-col  mx-auto justify-center">
                 <Header />
-                <div className=" motion-safe:animate-fadeIn  flex flex-col  items-center border h-[2000px] border-gray-500 rounded-md m-6 p-10 md:w-[700px] md:mx-auto">
 
+                <div className=" motion-safe:animate-fadeIn  flex flex-col md:flex-row md:flex-wrap  items-center border h-[2000px] md:h-[1200px] border-gray-500 rounded-md m-6 p-10 md:w-[1200px] md:mx-auto md:justify-center">
+                    {/* <ToggleButton/> */}
+
+                    
+                    <WebLab/>
                     <Moodle />
                     <SmartCampus />
                     <Telegram />
 
                     {/* ISE-STUDY RESOURCE WHATSAPP */}
 
-                    <ResourceGroup/>
+                    <ResourceGroup />
 
 
                     {/* NMAMIT OFFICIAL WEBSITE */}
 
-                    <NmamitWebsite/>
+                    <NmamitWebsite />
 
                     {/* 5th sem Preface-Telegram */}
 
-                    <div className="flex items-center flex-col mb-8 border-1 h-[190px] px-0 justify-center rounded-md shadow-md shadow-[#C0C0C0]">
+                    <div className="flex items-center flex-col mb-8 border-1 h-[190px] px-0 justify-center rounded-md shadow-md shadow-[#C0C0C0] md:mx-6 md:h-[300px]">
                         <p className="mb-4 ml-0 mr-0 text-xl font-semibold text-[#C0C0C0] text-center px-[26px]">5th Semester Preface<span className="block text-sm font-normal text-center">Telegram</span>
                         </p>
                         <a href="https://t.me/ise_nmamit/484" >
-                            <Button/>
+                            <Button />
                         </a>
 
 
@@ -42,11 +50,11 @@ function App() {
 
                     {/* 6th sem Preface-Telegram */}
 
-                    <div className="flex items-center flex-col mb-8 border-1 h-[190px] px-0 justify-center rounded-md shadow-md shadow-[#C0C0C0]">
+                    <div className="flex items-center flex-col mb-8 border-1 h-[190px] px-0 justify-center rounded-md shadow-md shadow-[#C0C0C0] md:mx-6 md:h-[300px]">
                         <p className="mb-4 ml-0 mr-0 text-xl font-semibold text-[#C0C0C0] text-center px-[26px]">6th Semester Preface<span className="block text-sm font-normal text-center">Telegram</span>
                         </p>
                         <a href="https://t.me/ise_nmamit/641" >
-                            <Button/>
+                            <Button />
                         </a>
 
 
@@ -54,7 +62,14 @@ function App() {
 
                     {/* 7th sem Preface-Telegram */}
 
-                    <div className="flex items-center flex-col mb-8 border-1 h-[190px] px-0 justify-center rounded-md shadow-md shadow-[#C0C0C0]">
+                    <div className="flex items-center flex-col mb-8 border-1 h-[190px] px-0 justify-center rounded-md shadow-md shadow-[#C0C0C0] md:mx-6 md:h-[300px]">
+
+
+
+
+
+
+
                         <p className="mb-4 ml-0 mr-0 text-xl font-semibold text-[#C0C0C0] text-center px-[26px]">7th Semester Preface<span className="block text-sm font-normal text-center">Telegram</span>
                         </p>
                         {/* <a href="https://t.me/ise_nmamit/641" > */}

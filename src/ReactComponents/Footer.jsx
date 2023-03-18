@@ -1,10 +1,10 @@
 import React from "react";
 import Credits from "./Credits"
-import Logo from "./logos";
+import Logo from "./SocialMedia";
 
 function Footer() {
     return (
-        <footer className="bg-[#3C3C3C] h-[100px] p-4 text-center">
+        <footer className="bg-[#3C3C3C] h-[100px] p-4 text-center rounded-t-lg">
             <div className="flex justify-center
                 items-center">
 
