@@ -7,7 +7,7 @@ function Telegram() {
             <p className="mb-4 ml-0 mr-0 text-xl font-semibold text-[#C0C0C0] text-center px-[30px]  ">ISE-Study Resources
                 <span className="font-normal text-sm block">Telegram</span></p>
             <a href="https://t.me/ise_nmamit" >
-                <Button/>
+                <Button buttonName="Click Here"/>
             </a>
 
 

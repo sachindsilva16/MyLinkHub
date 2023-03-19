@@ -8,7 +8,7 @@ function NmamitWebsite(){
                         <p className="mb-4 ml-0 mr-0 text-xl font-semibold text-[#C0C0C0] text-center px-[11px]"><span className="text-center">NMAMIT Official Website</span>
                         </p>
                         <a href="https://nmamit.nitte.edu.in/  " >
-                            <Button/>
+                            <Button buttonName="Click Here"/>
                         </a>
 
 

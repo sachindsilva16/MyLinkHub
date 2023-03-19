@@ -18,7 +18,7 @@ function App() {
             <div className="container mt-[20px] flex flex-col  mx-auto justify-center">
                 <Header />
 
-                <div className=" motion-safe:animate-fadeIn  flex flex-col md:flex-row md:flex-wrap  items-center border h-[2000px] md:h-[1200px] border-gray-500 rounded-md m-6 p-10 md:w-[1200px] md:mx-auto md:justify-center">
+                <div className=" motion-safe:animate-fadeIn  flex flex-col md:flex-row md:flex-wrap  items-center border h-[2000px] md:h-[1200px] border-gray-500 rounded-md m-6 p-10 md:w-[1200px] md:mx-auto md:justify-center ">
                     {/* <ToggleButton/> */}
 
                     
@@ -42,7 +42,7 @@ function App() {
                         <p className="mb-4 ml-0 mr-0 text-xl font-semibold text-[#C0C0C0] text-center px-[26px]">5th Semester Preface<span className="block text-sm font-normal text-center">Telegram</span>
                         </p>
                         <a href="https://t.me/ise_nmamit/484" >
-                            <Button />
+                            <Button buttonName="Click Here"/>
                         </a>
 
 
@@ -54,7 +54,7 @@ function App() {
                         <p className="mb-4 ml-0 mr-0 text-xl font-semibold text-[#C0C0C0] text-center px-[26px]">6th Semester Preface<span className="block text-sm font-normal text-center">Telegram</span>
                         </p>
                         <a href="https://t.me/ise_nmamit/641" >
-                            <Button />
+                            <Button buttonName="Click Here"/>
                         </a>
 
 
