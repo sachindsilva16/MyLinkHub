@@ -15,7 +15,7 @@ function WebLab(){
 
 <div className="flex items-center flex-col mb-8 border-1 h-[350px] px-8 md:px-8 justify-center rounded-md shadow-md shadow-[#C0C0C0] md:mx-6 md:h-[300px]">
 <p className="mb-4 ml-0 mr-0 text-xl font-semibold text-[#C0C0C0] text-center px-[30px]  ">Web Lab MSE1
-    <span className="font-normal text-sm block">Preview</span></p>
+    <span className="font-normal text-sm block">Source Code</span></p>
 <a href="https://sachindsilva16.github.io/WebP-Lab-Codes/WEB_MSE01.rar" >
     <Button/>
     <DownloadButton/>
