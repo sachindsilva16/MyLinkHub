@@ -21,7 +21,7 @@ function App() {
                     {/* <ToggleButton/> */}
 
                     
-                    <WebLab/>
+                  {/*<WebLab/>*/}
                     <Moodle />
                     <SmartCampus />
                     <Telegram />
