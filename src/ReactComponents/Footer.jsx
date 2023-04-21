@@ -5,7 +5,7 @@ import TelegramLogo from "./TelegramLogo";
 
 function Footer() {
     return (
-        <footer className="bg-[#3C3C3C] h-[100px] p-4 text-center rounded-t-lg">
+        <footer className="bg-gradient-to-b from-indigo-200 to-violet-500 py-10 text-center rounded-t-lg">
             <div className="flex justify-center
                 items-center">
 

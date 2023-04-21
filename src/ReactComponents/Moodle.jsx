@@ -16,8 +16,8 @@ function Moodle() {
     }
 
     return (
-        <div className="flex items-center flex-col border-1 mb-12 mt-4 h-[300px] p-8 justify-center rounded-md shadow-md shadow-[#C0C0C0] md:mx-6 md:h-[300px]">
-            <p className="mb-4 ml-4 mr-4 text-xl font-semibold text-[#C0C0C0]">NMAMIT Moodle</p>
+        <div className="motion-safe:animate-fadeIn1.5s flex items-center flex-col border-1 mb-12 mt-4 h-[300px] p-16 justify-center rounded-3xl shadow-md bg-gradient-to-b from-blue-500 via-blue-400 to-violet-600 text-black shadow-sm shadow-green-400 md:mx-6 md:h-[300px]">
+            <p className="mb-4 ml-4 mr-4 text-2xl font-semibold ">NMAMIT Moodle</p>
 
 
             {/* <div className="flex justify-center">
@@ -41,7 +41,7 @@ function Moodle() {
                 <Button buttonName="Click Here"/>
             </a>
             <div className="mt-8">
-                <p className="mb-2 ml-4 mr-4 font-medium text-[#C0C0C0]">[Alternates]</p>
+                <p className="mb-2 ml-4 mr-4 font-medium text-xl">[Alternates]</p>
             </div>
             <a href="http://115.243.167.87" >
                 <Button buttonName="Click Here"/>

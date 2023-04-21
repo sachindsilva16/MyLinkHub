@@ -4,8 +4,8 @@ import Button from "./Button";
 
 function NmamitWebsite(){
     return(
-        <div className="flex items-center flex-col mb-8 border-1 h-[190px] px-0 justify-center rounded-md shadow-md shadow-[#C0C0C0] md:mx-6 md:h-[300px]">
-                        <p className="mb-4 ml-0 mr-0 text-xl font-semibold text-[#C0C0C0] text-center px-[11px]"><span className="text-center">NMAMIT Official Website</span>
+        <div className="motion-safe:animate-fadeIn4s flex items-center flex-col border-1 mb-12 mt-4 h-[300px] p-8 justify-center rounded-3xl shadow-md bg-gradient-to-b from-blue-500 via-blue-400 to-violet-600 text-black shadow-sm shadow-green-400 md:mx-6 md:h-[300px]">
+                        <p className="mb-4 ml-0 mr-0 text-2xl font-semibold text-center px-[11px]"><span className="text-center">NMAMIT Official Website</span>
                         </p>
                         <a href="https://nmamit.nitte.edu.in/  " >
                             <Button buttonName="Click Here"/>
