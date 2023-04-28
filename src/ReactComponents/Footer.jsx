@@ -24,13 +24,14 @@ function Footer() {
                 <Logo href="https://www.linkedin.com/in/sachin-dsilva-43169a1bb" src="https://raw.githubusercontent.com/sachindsilva16/Hyperlinks-ReactApp/468867e6ae52bad1a6b021193416c2857ecb311f/img/linkedin.svg" />
 
 
-                <Logo href="https://twitter.com/sachinrons123" src="https://raw.githubusercontent.com/sachindsilva16/Hyperlinks-ReactApp/54bdf5e79435f9df86a4704966a6c47c43811c0f/img/twitter.svg"  />
+                <Logo href="https://twitter.com/sachinrons123" src="https://raw.githubusercontent.com/sachindsilva16/Hyperlinks-ReactApp/54bdf5e79435f9df86a4704966a6c47c43811c0f/img/twitter.svg" />
 
-                <TelegramLogo href="t.me/ise_nmamit/" src="https://raw.githubusercontent.com/sachindsilva16/Hyperlinks-ReactApp/49e4f0b1e2c193942538e1233f5c20095d8b0da2/img/telegram.svg"/>
+                <TelegramLogo href="t.me/ise_nmamit/" src="https://raw.githubusercontent.com/sachindsilva16/Hyperlinks-ReactApp/49e4f0b1e2c193942538e1233f5c20095d8b0da2/img/telegram.svg" />
             </div>
 
-
-            <Credits />
+            <AnimationOnScroll animateIn="animate__rubberBand">
+                <Credits />
+            </AnimationOnScroll>
         </footer>
     );
 }
