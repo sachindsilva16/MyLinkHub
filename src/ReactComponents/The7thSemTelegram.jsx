@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function The7thSemTelegram() {
     return (
-        <div className="motion-safe:animate-fadeIn5.5s flex items-center flex-col border-1 mb-12 mt-4 h-[300px] p-8 justify-center rounded-3xl shadow-md bg-gradient-to-b from-blue-500 via-blue-400 to-violet-600 text-black shadow-sm shadow-green-400 md:mx-6 md:h-[300px]">
+        <div className="flex items-center flex-col border-1 mb-12 mt-4 h-[300px] p-8 justify-center rounded-3xl shadow-md bg-gradient-to-b from-blue-500 via-blue-400 to-violet-600 text-black shadow-sm shadow-violet-700  md:mx-6 md:h-[300px]">
 
 
 
