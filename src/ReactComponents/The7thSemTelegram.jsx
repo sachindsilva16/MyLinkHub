@@ -15,7 +15,7 @@ function The7thSemTelegram() {
             </p>
             {/* <a href="https://t.me/ise_nmamit/641" > */}
             <button className=" bg-blue-200 w-[180px] h-10 rounded-md text-black bg-gradient-to-r from-indigo-600 to-violet-400 shadow-lg shadow-violet-600/50 font-medium  active:cursor-not-allowed hover:cursor-not-allowed
-                                    relative hover:scale-110">Not Avaiable</button>
+                                    relative hover:scale-110">Not Available</button>
             {/* </a> */}
 
 

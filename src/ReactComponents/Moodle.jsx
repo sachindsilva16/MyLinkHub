@@ -37,13 +37,13 @@ function Moodle() {
 
 
 
-            <a href="http://guru.nmamit.in" >
+            <a href="http://guru.nmamit.in" target="_blank">
                 <Button buttonName="Click Here"/>
             </a>
             <div className="mt-8">
                 <p className="mb-2 ml-4 mr-4 font-medium text-xl">[Alternates]</p>
             </div>
-            <a href="http://115.243.167.87" >
+            <a href="http://115.243.167.87" target="_blank">
                 <Button buttonName="Click Here"/>
             </a> 
 

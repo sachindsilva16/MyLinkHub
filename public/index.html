@@ -3,27 +3,29 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           animation: {
-            "fadeIn0.5s": "fadeIn 0.5s ease-in-out backwards",
-            "fadeIn1s": "fadeIn 1s ease-in-out backwards",
-            "fadeIn1.5s": "fadeIn 1.5s ease-in-out backwards",
-            "fadeIn2s": "fadeIn 2s ease-in-out backwards",
-            "fadeIn2.5s": "fadeIn 2.5s ease-in-out backwards",
-            "fadeIn3s": "fadeIn 3s ease-in-out backwards",
-            "fadeIn3.5s": "fadeIn 3.5s ease-in-out backwards",
-            "fadeIn4s": "fadeIn 4s ease-in-out backwards",
-            "fadeIn4.5s": "fadeIn 4.5s ease-in-out backwards",
-            "fadeIn5s": "fadeIn 5s ease-in-out backwards",
-            "fadeIn5.5s": "fadeIn 5.5s ease-in-out backwards",
-            spin: 'spin 1.5s linear infinite'
+            "fadeIn0.5s": "fadeIn 0.5s ease-in forwards",
+            "fadeIn1s": "fadeIn 0.5s ease-in forwards",
+            "fadeIn1.5s": "fadeIn 0.5s ease-in forwards",
+            "fadeIn2s": "fadeIn 0.5s ease-in forwards",
+            "fadeIn2.5s": "fadeIn 0.5s ease-in forwards",
+            "fadeIn3s": "fadeIn 0.5s ease-in forwards",
+            "fadeIn3.5s": "fadeIn 0.5s ease-in forwards",
+            "fadeIn4s": "fadeIn 0.5s ease-in forwards",
+            "fadeIn4.5s": "fadeIn 0.5s ease-in forwards",
+            "fadeIn5s": "fadeIn 0.5s ease-in forwards",
+            "fadeIn5.5s": "fadeIn 0.5s ease-in forwards",
+            "bounce1s": 'bounce 0.7s linear infinite',
+            "bounce1.1s": 'bounce 1.5s linear infinite'
           },
           keyframes: {
             fadeIn: {
@@ -50,9 +52,11 @@
   <title>My Link Hub | Your Frequent Taps</title>
 </head>
 
-<body class="font-appleEmoji bg-[#1a1a1a]">
+<body class="font-appleEmoji">
   <div id="root"></div>
   <script src="../src/index.js"></script>
 </body>
 
 </html>
+
+<!-- bg-[#1a1a1a] -->
