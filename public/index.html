@@ -5,46 +5,47 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
-          animation:{
-            "fadeIn0.5s":"fadeIn 0.5s ease-in-out backwards",
-            "fadeIn1s":"fadeIn 1s ease-in-out backwards",
-            "fadeIn1.5s":"fadeIn 1.5s ease-in-out backwards",
-            "fadeIn2s":"fadeIn 2s ease-in-out backwards",
-            "fadeIn2.5s":"fadeIn 2.5s ease-in-out backwards",
-            "fadeIn3s":"fadeIn 3s ease-in-out backwards",
-            "fadeIn3.5s":"fadeIn 3.5s ease-in-out backwards",
-            "fadeIn4s":"fadeIn 4s ease-in-out backwards",
-            "fadeIn4.5s":"fadeIn 4.5s ease-in-out backwards",
-            "fadeIn5s":"fadeIn 5s ease-in-out backwards",
-            "fadeIn5.5s":"fadeIn 5.5s ease-in-out backwards",
-            spin:'spin 1.5s linear infinite'
+          animation: {
+            "fadeIn0.5s": "fadeIn 0.5s ease-in-out backwards",
+            "fadeIn1s": "fadeIn 1s ease-in-out backwards",
+            "fadeIn1.5s": "fadeIn 1.5s ease-in-out backwards",
+            "fadeIn2s": "fadeIn 2s ease-in-out backwards",
+            "fadeIn2.5s": "fadeIn 2.5s ease-in-out backwards",
+            "fadeIn3s": "fadeIn 3s ease-in-out backwards",
+            "fadeIn3.5s": "fadeIn 3.5s ease-in-out backwards",
+            "fadeIn4s": "fadeIn 4s ease-in-out backwards",
+            "fadeIn4.5s": "fadeIn 4.5s ease-in-out backwards",
+            "fadeIn5s": "fadeIn 5s ease-in-out backwards",
+            "fadeIn5.5s": "fadeIn 5.5s ease-in-out backwards",
+            spin: 'spin 1.5s linear infinite'
           },
-          keyframes:{
-            fadeIn:{
-              "0%":{opacity:0},
-              "100%":{opacity:1}
+          keyframes: {
+            fadeIn: {
+              "0%": { opacity: 0 },
+              "100%": { opacity: 1 }
             },
-            spin:{
-              "0%":{transform:"rotate(12deg)"},
-              "50%":{transform:"rotate(-12deg)"},
-              "100%":{transform:"rotate(12deg)"}
+            spin: {
+              "0%": { transform: "rotate(12deg)" },
+              "50%": { transform: "rotate(-12deg)" },
+              "100%": { transform: "rotate(12deg)" }
             }
           },
-          variants:{
-            animation:["motion-safe"]
+          variants: {
+            animation: ["motion-safe"]
           }
 
-      },
-      fontFamily: {
-        appleEmoji: ["-apple-system", "BlinkMacSystemFont", "sans-serif"],
-    },
-        }
+        },
+        fontFamily: {
+          appleEmoji: ["-apple-system", "BlinkMacSystemFont", "sans-serif"],
+        },
       }
+    }
   </script>
   <title>My Link Hub </title>
 </head>
