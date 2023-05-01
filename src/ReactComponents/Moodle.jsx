@@ -17,7 +17,7 @@ function Moodle() {
 
     return (
         <div className="flex items-center flex-col border-1 mb-12 mt-4 h-[300px] p-16 justify-center rounded-3xl shadow-md bg-gradient-to-b from-blue-500 via-blue-400 to-violet-600 text-black shadow-sm shadow-violet-700 md:mx-6 md:h-[300px]">
-            <p className="mb-4 ml-4 mr-4 text-2xl font-semibold ">NMAMIT Moodle</p>
+            <p className="mb-4 ml-4 mr-4 text-xl font-semibold ">NMAMIT Moodle</p>
 
 
             {/* <div className="flex justify-center">

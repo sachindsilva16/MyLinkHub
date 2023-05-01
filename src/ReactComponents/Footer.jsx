@@ -29,7 +29,7 @@ function Footer() {
                 <TelegramLogo href="t.me/ise_nmamit/" src="https://raw.githubusercontent.com/sachindsilva16/Hyperlinks-ReactApp/49e4f0b1e2c193942538e1233f5c20095d8b0da2/img/telegram.svg" />
             </div>
 
-            <AnimationOnScroll animateIn="animate__rubberBand">
+            <AnimationOnScroll animateIn="animate__tada">
                 <Credits />
             </AnimationOnScroll>
         </footer>
