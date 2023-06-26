@@ -1,84 +1,103 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<kbd>
+<div>
+<a href="url"><img src="https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/header-image.png"  height="auto" width="auto" style="border-radius:100%;"></a>
+</div>
+</kbd>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+<details>
+<summary> 
+<h3>To follow this session tutorial, you will need the following requirements:</h3>
+</summary>
+</details>
 
+- Firstly, make sure you have installed the latest version of Node.js on your computer. **[Download from here](https://nodejs.org/en)**
+
+## ` # Step 1 `
+
+- In this step, you'll be creating a new react application using npm package manager to run a remote script. The script will copy the neccessary files into a new directory and will install all dependencies.To know about how to use Nodejs modules with npm and package.json, **[Visit this site](https://www.w3schools.com/nodejs/nodejs_npm.asp)**.
+
+- Once you're done with the above setup,follow this very next step **carefully**.
+
+> **Note** : Make sure that you are in os directory. For Windows user --> change directory to 'C:\ ' 
+
+<br>
+
+- To install the base project, copy and run the following command:
+
+
+``` 
+npx create-react-app to-do-list-app
+```
+> This command wil kick off a build process that will download the base code along with a # of dependencies.
+
+- When the process finishes you will see a success message, that says : 
+
+
+![Output cmd](https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/output-cmd1.png)
+
+- Now your project has been setup in a new directory.Copy the following command to change into new directory.
+
+```
+cd to-do-list-app
+```
+> You're now inside the root of your created project.At this point, you've created a new project and added all of the dependencies. But you haven't take any of actions to run the project.
+> You'll run the custom scripts to build and test the project.
+
+<br>
+
+## ` # Step 2 `
+
+- Copy and run the following command:
+
+```
+npm install react react-dom react-scripts
+```
+> **Note** This could take some time depending upon your network-connection speed.
+
+- Once the above scripts have been successfully processed,you'll start the project on a live server
+
+## ` # Step 3 `
+
+- **Start the Project** by running the following command in the root of your project.For this, your root project is **to-do-list-app** directory. Be sure to open this in a seperate terminal or tab, since this script will continue running as long as you self-terminate it.
 
 ```
 npm start
 ```
+> You might this as a output:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Alt npm-start-output](https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/npm-start-output.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- If you're running the script locally, it will open the project in your default browser window and shifts the focus from the terminal to the browser.
 
-```
-npm test
-```
-
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- If that doesn't happen, you can visit the following site **Copy the following clipboard** to see the site action.
 
 ```
-npm run build
+http://localhost:3000/
 ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> **Warning**: Do not try to make any default changes in package.json until then or else you might get cluttered.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- In the browser, you'll see the following React Template Project running on localhost:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img align="center" src="https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/default-react-app.png" width="100%" height="70%">
 
-```
-npm run eject
-```
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **To terminate this running server**, on your existing terminal, press **`ctrl+c`** or **`ctrl+z`** on your keyboard.
 
 
-```
-npm run build
-```
-fails to minify
+## ` # Step 4 `
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Now you have successfully developed a local environment for your React-Application. You're now good to go to **code**.....
+
+**Rest of changes will be discussed during the live-demo session...**
+<hr>
+<br>
+
+> **Note**: If you're facing some trouble during the installation process, Visit **[stack-overflow](https://stackoverflow.com/)** or any other troubleshooting domain sites.
+
+**----------------------------------------------------------------------------------------------------------------------------------------------------------------- **
+
+
+
